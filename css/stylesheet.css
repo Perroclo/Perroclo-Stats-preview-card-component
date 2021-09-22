@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+
+*{
+
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+body{
+
+background-color: hsl(233, 47%, 7%);
+position: relative;
+}
+
+
+.container{
+
+
+background: hsl(244, 38%, 16%);
+height: 395px;
+width: 967px;
+margin: 0px auto;
+position: absolute;
+border-radius: 10px;
+left: 50%;
+top:50%;
+transform: translate(-50%,100%);
+
+
+}
+
+
+.contenido{
+    padding-top: 60px;
+    padding-left: 54px;
+    padding-right: 576px;
+    padding-bottom: 42px;
+    height: 396px;
+    
+  
+ }
+
+
+.titular{
+font-family: 'Inter', sans-serif;
+color:hsl(0, 0%, 100%);
+font-weight: 600;
+
+}
+
+.subtitulo{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 13px;
+    font-weight: 100;
+
+}
+
+.dato10k,.dato314,.dato12M,.COMPANIES,.TEMPLATES,.QUERIES{
+font-family: 'Inter', sans-serif;
+color: hsla(0, 0%, 100%, 0.6);	
+}
+
+
+.dato10k{
+font-family: 'Inter', sans-serif;
+position: relative;
+top:45px;	
+font-weight: 200;
+
+}
+
+.dato314{
+font-family: 'Inter', sans-serif;
+position: relative;
+left:133px;
+top:17px;
+
+}
+
+.dato12M{
+font-family: 'Inter', sans-serif;
+position: relative;
+left:249px;
+bottom: 11px;
+
+}
+
+.COMPANIES{
+font-family: 'Inter', sans-serif;
+position: relative;
+left: 0px;
+bottom:7px;
+
+}
+
+.TEMPLATES{
+font-family: 'Inter', sans-serif;
+position: relative;
+left: 133px;
+bottom: 21px;
+
+	
+}
+
+.QUERIES{
+font-family: 'Inter', sans-serif;
+position: relative;
+left: 249px;
+bottom: 35px;
+
+
+
+}
+
+.dato10k,.dato314,.dato12M{
+
+font-weight: 800;
+font-size: 23px;
+color: white;
+
+}
+
+.COMPANIES,.TEMPLATES,.QUERIES{
+
+font-size: 11px;
+
+
+}
+
+.insights{
+display: inline;
+color:hsl(277, 64%, 61%);
+}
+
+.imagen1{
+
+    height: 396px;
+    width: 489px;
+    position: relative;
+    bottom: 366px;
+    left: 424px;
+    border-radius: 0px 10px 10px 0px;
+filter: sepia(100%) brightness(59%) hue-rotate(244deg) contrast(154%) invert(10%);
+-webkit-filter: sepia(100%) brightness(59%) hue-rotate(244deg) contrast(154%) invert(10%);
+-moz-filter: sepia(100%) brightness(59%) hue-rotate(244deg) contrast(154%) invert(10%);
+}
